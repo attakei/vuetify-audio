@@ -111,7 +111,7 @@
                         this.loaded = true
                     }
 
-                    if (this.autoPlay) this.audio.play()
+                    if (this.autoPlay) this.play()
 
                 } else {
                     throw new Error('Failed to load sound file')
